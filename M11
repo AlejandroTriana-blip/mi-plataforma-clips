@@ -1,0 +1,9 @@
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+
+git init
+git add .
+git commit -m "Initial commit: estructura backend escalable"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/mi-plataforma-clips.git
+git push -u origin main
